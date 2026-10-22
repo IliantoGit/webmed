@@ -22,5 +22,11 @@
   ],
   "howToHold": "—",
   "sterilization": "Выпускается стерильным в индивидуальной упаковке.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/suture-material.jpg",
+  "imageCredit": {
+    "author": "Werneuchen",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Atraumatisches_Nahtmaterial_17.JPG"
+  }
 }

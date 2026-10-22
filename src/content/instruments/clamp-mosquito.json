@@ -19,5 +19,11 @@
   ],
   "howToHold": "I и IV пальцы в кольцах.",
   "sterilization": "Автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/clamp-mosquito.jpg",
+  "imageCredit": {
+    "author": "Storz",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Curved_Hemostatic_Mosquito_Forceps_of_Dr._John_Hersel_Gladney_-_DPLA_-_ab73c6459d190ec886a8f43831b2ca7b_(page_2).jpg"
+  }
 }

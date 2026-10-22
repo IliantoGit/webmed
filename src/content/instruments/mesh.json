@@ -19,5 +19,11 @@
   ],
   "howToHold": "Моделируют ножницами по форме дефекта.",
   "sterilization": "Выпускается стерильной, повторной стерилизации не подлежит.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/mesh.jpg",
+  "imageCredit": {
+    "author": "Superbass",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-01-26-Herniennetz-3683.jpg"
+  }
 }

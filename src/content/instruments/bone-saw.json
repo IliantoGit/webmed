@@ -26,5 +26,11 @@
   ],
   "howToHold": "Длинными равномерными движениями, без перекоса.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/bone-saw.jpg",
+  "imageCredit": {
+    "author": "Z22",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gigli_Saw.jpg"
+  }
 }

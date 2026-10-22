@@ -21,5 +21,11 @@
   ],
   "howToHold": "Как писчее перо.",
   "sterilization": "Одноразовые наконечники или автоклавирование металлических.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/suction.jpg",
+  "imageCredit": {
+    "author": "автор не указан",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Yankauer_Suction_Tube_of_Dr._John_Hersel_Gladney_-_DPLA_-_d7d65c4ea9539fb153807eb1268008b3_(page_1).jpg"
+  }
 }

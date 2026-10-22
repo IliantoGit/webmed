@@ -29,5 +29,11 @@
   ],
   "howToHold": "Иглу ведут перпендикулярно коже по верхнему краю ребра.",
   "sterilization": "Одноразовые стерильные системы.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/pleural-needle.jpg",
+  "imageCredit": {
+    "author": "Doc James",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ThoracentesisEquip.jpg"
+  }
 }

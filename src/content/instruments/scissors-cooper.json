@@ -18,5 +18,11 @@
   ],
   "howToHold": "Ногтевые фаланги I и IV пальцев вводят в кольца, II палец лежит на замке для стабилизации.",
   "sterilization": "Автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/scissors-cooper.jpg",
+  "imageCredit": {
+    "author": "Olek Remesz (wiki-pl: Orem, commons: Orem)",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Surgical_scissors_Orem.jpg"
+  }
 }

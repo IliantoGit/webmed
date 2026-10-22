@@ -18,5 +18,11 @@
   ],
   "howToHold": "I и IV пальцы в кольцах. Кремальеру закрывают до 1–2 щелчков.",
   "sterilization": "Автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/clamp-kocher.jpg",
+  "imageCredit": {
+    "author": "Slashatdot at German Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kocher_grossklein_totale.jpg"
+  }
 }

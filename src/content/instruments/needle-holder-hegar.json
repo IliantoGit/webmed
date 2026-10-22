@@ -18,5 +18,11 @@
   ],
   "howToHold": "Ладонный хват (без пальцев в кольцах) — для быстрой работы; кольцевой хват (I и IV пальцы) — для точной работы.",
   "sterilization": "Автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/needle-holder-hegar.jpg",
+  "imageCredit": {
+    "author": "Rschiedon at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Naaldvoerder_Mayo-hegar.jpg"
+  }
 }

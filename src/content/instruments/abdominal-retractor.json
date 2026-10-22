@@ -25,5 +25,11 @@
   ],
   "howToHold": "Держит ассистент.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/abdominal-retractor.jpg",
+  "imageCredit": {
+    "author": "Saltanat",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deaver_retractor_01.JPG"
+  }
 }

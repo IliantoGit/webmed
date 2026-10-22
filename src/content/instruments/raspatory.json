@@ -29,5 +29,11 @@
   ],
   "howToHold": "Держат всей кистью, движение — по ходу волокон надкостницы.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/raspatory.jpg",
+  "imageCredit": {
+    "author": "Netha Hussain",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Farabeauf_periosteal_elevator.jpg"
+  }
 }

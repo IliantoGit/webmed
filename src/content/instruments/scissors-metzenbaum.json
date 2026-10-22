@@ -20,5 +20,11 @@
   ],
   "howToHold": "Как ножницы Купера: I и IV пальцы в кольцах, II палец на замке.",
   "sterilization": "Автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/scissors-metzenbaum.jpg",
+  "imageCredit": {
+    "author": "Saltanat ebli",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Metzenbaum_scissors_04.jpg"
+  }
 }

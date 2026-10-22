@@ -20,5 +20,11 @@
   ],
   "howToHold": "Вводят с обтуратором по дуге, затем удаляют обтуратор.",
   "sterilization": "Пластиковые — одноразовые стерильные.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/tracheostomy-tube.jpg",
+  "imageCredit": {
+    "author": "Tenbergen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tracheostomy_tube_cuffed.jpg"
+  }
 }

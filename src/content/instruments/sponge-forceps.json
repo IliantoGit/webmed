@@ -25,5 +25,11 @@
   ],
   "howToHold": "I и IV пальцы в кольцах.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/sponge-forceps.jpg",
+  "imageCredit": {
+    "author": "Saltanat ebli",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sponge_Rampley_Forceps_Clamp_05.JPG"
+  }
 }

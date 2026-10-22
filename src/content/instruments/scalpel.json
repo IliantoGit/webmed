@@ -20,5 +20,11 @@
   ],
   "howToHold": "Для длинного разреза — позиция «смычка» (как смычок скрипки); для точного короткого разреза — позиция «писчего пера».",
   "sterilization": "Съёмные лезвия одноразовые. Рукоятка — автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/scalpel.jpg",
+  "imageCredit": {
+    "author": "Saltanat ebli",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scalpel_01.jpg"
+  }
 }

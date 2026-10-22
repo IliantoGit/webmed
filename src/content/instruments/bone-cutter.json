@@ -25,5 +25,11 @@
   ],
   "howToHold": "Двумя руками или одной за рукоятки.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/bone-cutter.jpg",
+  "imageCredit": {
+    "author": "AfroBrazilian",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Liston_Bone_Cutting_Forcep_curved_01.jpg"
+  }
 }

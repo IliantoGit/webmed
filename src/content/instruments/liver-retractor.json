@@ -24,5 +24,11 @@
   ],
   "howToHold": "Ассистент держит за рукоятку, тянет равномерно.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/liver-retractor.jpg",
+  "imageCredit": {
+    "author": "Saltanat ebli",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deaver_retractor_03.JPG"
+  }
 }

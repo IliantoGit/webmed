@@ -19,5 +19,11 @@
   ],
   "howToHold": "Рукоятка-«пистолет», вращение браншей колесиком.",
   "sterilization": "Автоклавирование (разборные модели).",
-  "review": false
+  "review": false,
+  "image": "images/instruments/lap-grasper.jpg",
+  "imageCredit": {
+    "author": "ignis",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Laparoscopic_Hand_Instruments_001_JPN.jpg"
+  }
 }

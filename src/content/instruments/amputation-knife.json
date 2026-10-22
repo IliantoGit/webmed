@@ -23,5 +23,11 @@
   ],
   "howToHold": "Держат всей кистью, ведут круговым движением.",
   "sterilization": "Автоклавирование.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/amputation-knife.jpg",
+  "imageCredit": {
+    "author": "Wellcome Collection",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amputation_knife,_Paris,_France,_1701-1800_Wellcome_L0058146.jpg"
+  }
 }

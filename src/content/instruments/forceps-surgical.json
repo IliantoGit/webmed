@@ -17,5 +17,11 @@
   ],
   "howToHold": "Держат как писчее перо в левой руке, не прижимая к ладони.",
   "sterilization": "Автоклавирование.",
-  "review": false
+  "review": false,
+  "image": "images/instruments/forceps-surgical.jpg",
+  "imageCredit": {
+    "author": "SnowBink",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adson_00.jpg"
+  }
 }

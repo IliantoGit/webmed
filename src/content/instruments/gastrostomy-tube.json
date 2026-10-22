@@ -23,5 +23,11 @@
   ],
   "howToHold": "—",
   "sterilization": "Стерильная одноразовая.",
-  "review": true
+  "review": true,
+  "image": "images/instruments/gastrostomy-tube.jpg",
+  "imageCredit": {
+    "author": "Pflegewiki-User HoRaMi",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Percutaneous_endoscopic_gastrostomy-tube.jpg"
+  }
 }
