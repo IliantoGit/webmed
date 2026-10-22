@@ -3,6 +3,7 @@ import { getItem, getItems, related, TYPES, TYPE_KEYS } from '../data/index.js'
 import Illustration from '../components/Illustration.jsx'
 import FavButton from '../components/FavButton.jsx'
 import NotFound from './NotFound.jsx'
+import { BOOKS } from '../data/sources.js'
 
 export default function Detail() {
   const { type, id } = useParams()
@@ -42,7 +43,30 @@ export default function Detail() {
         )}
       </header>
 
+      {item.status === 'review' && (
+        <div className="review-banner" role="note">
+          <strong>⚠ Статья на проверке</strong>
+          <span>
+            Материал подготовлен по учебной литературе и ещё не проверен преподавателем. Сверяйтесь с первоисточником.
+          </span>
+        </div>
+      )}
+
       <Body item={item} />
+
+      {item.sources?.length > 0 && (
+        <section className="block sources">
+          <h2>📚 Источники</h2>
+          <ol>
+            {item.sources.map((s, i) => (
+              <li key={i}>
+                {BOOKS[s.book] || s.book}
+                {s.pages && <span className="muted"> — с. {s.pages}</span>}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
 
       {Object.keys(rel).length > 0 && (
         <section className="block">

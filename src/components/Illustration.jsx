@@ -190,6 +190,40 @@ const DRAWINGS = {
       <text x="185" y="31" fontSize="9" fill="var(--muted)" textAnchor="end">эпидермис</text>
     </>
   ),
+  probe: (
+    <>
+      <rect x="15" y="52" width="40" height="16" rx="3" {...S} fill={METAL} />
+      <path d="M55 56 L180 56 Q188 60 180 64 L55 64 Z" {...S} fill={METAL} />
+      <line x1="62" y1="60" x2="176" y2="60" stroke="var(--muted)" strokeWidth="1.5" />
+    </>
+  ),
+  spatula: (
+    <>
+      <rect x="15" y="54" width="70" height="12" rx="5" {...S} fill={METAL} />
+      <path d="M85 50 L185 42 Q192 60 185 78 L85 70 Z" {...S} fill={METAL} />
+    </>
+  ),
+  saw: (
+    <>
+      <rect x="15" y="40" width="40" height="40" rx="8" {...S} fill="var(--bg)" />
+      <rect x="55" y="45" width="130" height="22" {...S} fill={METAL} />
+      <path d={'M55 67 ' + Array.from({ length: 13 }, (_, i) => `l5 8 l5 -8`).join(' ')} {...S} />
+    </>
+  ),
+  tourniquet: (
+    <>
+      <path d="M20 60 Q60 20 100 60 T180 60" {...S} strokeWidth="10" stroke="var(--accent)" />
+      <path d="M20 60 Q60 20 100 60 T180 60" {...S} strokeWidth="2" stroke="var(--bg)" />
+      <rect x="170" y="50" width="16" height="20" rx="3" {...S} fill={METAL} />
+    </>
+  ),
+  raspatory: (
+    <>
+      <rect x="15" y="52" width="100" height="16" rx="6" {...S} fill={METAL} />
+      <line x1="115" y1="60" x2="160" y2="60" {...S} strokeWidth="4" />
+      <path d="M160 48 L185 52 L185 68 L160 72 Z" {...S} fill="var(--blade)" />
+    </>
+  ),
 }
 
 export default function Illustration({ kind, image, title, size = 'md' }) {

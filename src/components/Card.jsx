@@ -17,6 +17,7 @@ export default function Card({ item }) {
           <span className={`badge badge-${item.type}`}>
             {t.icon} {t.one}
           </span>
+          {item.status === 'review' && <span className="badge badge-review">На проверке</span>}
           <h3>{item.title}</h3>
           <p>{item.summary}</p>
           <Meta item={item} />
