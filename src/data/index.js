@@ -1,8 +1,15 @@
-import { operations } from './operations.js'
-import { instruments } from './instruments.js'
-import { diseases } from './diseases.js'
-import { anatomy } from './anatomy.js'
-import { drugs } from './drugs.js'
+// Контент хранится в src/content/<раздел>/<id>.json — по одному файлу на статью.
+// Эти файлы редактируются через админ-панель (/admin) или вручную.
+const load = (modules) =>
+  Object.values(modules)
+    .map((m) => m.default)
+    .sort((x, y) => x.title.localeCompare(y.title, 'ru'))
+
+const operations = load(import.meta.glob('../content/operations/*.json', { eager: true }))
+const instruments = load(import.meta.glob('../content/instruments/*.json', { eager: true }))
+const diseases = load(import.meta.glob('../content/diseases/*.json', { eager: true }))
+const anatomy = load(import.meta.glob('../content/anatomy/*.json', { eager: true }))
+const drugs = load(import.meta.glob('../content/drugs/*.json', { eager: true }))
 
 // Описание разделов. Ключ используется в адресах: #/operations/appendectomy-open
 export const TYPES = {

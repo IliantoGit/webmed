@@ -228,7 +228,8 @@ const DRAWINGS = {
 
 export default function Illustration({ kind, image, title, size = 'md' }) {
   if (image) {
-    return <img className={`illu illu-${size}`} src={image} alt={title} loading="lazy" />
+    // путь без ведущего «/», чтобы картинки работали и в подпапке GitHub Pages
+    return <img className={`illu illu-${size}`} src={image.replace(/^\//, '')} alt={title} loading="lazy" />
   }
   const drawing = DRAWINGS[kind]
   return (

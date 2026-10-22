@@ -1,0 +1,300 @@
+# Настройки админ-панели (Sveltia CMS): https://github.com/sveltia/sveltia-cms
+# Каждая статья — отдельный JSON-файл в src/content/<раздел>/<id>.json.
+# После сохранения GitHub Actions пересобирает сайт за 1–2 минуты.
+
+backend:
+  name: github
+  repo: IliantoGit/webmed
+  branch: main
+  commit_messages:
+    create: "Админка: добавлено {{slug}} ({{collection}})"
+    update: "Админка: изменено {{slug}} ({{collection}})"
+    delete: "Админка: удалено {{slug}} ({{collection}})"
+    uploadMedia: "Админка: загружен файл {{path}}"
+    deleteMedia: "Админка: удалён файл {{path}}"
+
+site_url: https://iliantogit.github.io/webmed/
+display_url: https://iliantogit.github.io/webmed/
+
+# Картинки сохраняются в public/images, в статье путь пишется как images/имя.jpg
+media_folder: public/images
+public_folder: images
+
+# ——— Общие поля (переиспользуются через YAML-якоря) ———
+x-fields:
+  id: &id
+    name: id
+    label: ID (адрес страницы)
+    widget: string
+    hint: Только строчная латиница, цифры и дефис, например appendectomy-open. После создания не меняйте — на него ссылаются другие статьи.
+    pattern: ["^[a-z0-9-]+$", "Только строчная латиница, цифры и дефис"]
+  title: &title { name: title, label: Название, widget: string }
+  aliases: &aliases
+    name: aliases
+    label: Синонимы (для поиска)
+    widget: list
+    required: false
+    field: { name: alias, label: Синоним, widget: string }
+  tags: &tags
+    name: tags
+    label: Темы (теги)
+    widget: list
+    required: false
+    hint: Например «Общая хирургия», «Лапароскопия». Используются в фильтрах поиска.
+    field: { name: tag, label: Тема, widget: string }
+  summary: &summary { name: summary, label: Краткое описание (1–2 предложения), widget: text }
+  review: &review
+    name: review
+    label: Статья на проверке
+    widget: boolean
+    default: true
+    hint: Пока включено, на странице показывается плашка «Статья на проверке». Выключите после проверки преподавателем.
+  sources: &sources
+    name: sources
+    label: Источники
+    label_singular: источник
+    widget: list
+    required: false
+    summary: "{{fields.book}}, с. {{fields.pages}}"
+    fields:
+      - name: book
+        label: Учебник
+        widget: select
+        options:
+          - { label: "Николаев А.В. Топографическая анатомия и оперативная хирургия, 2022", value: nikolaev }
+          - { label: "Каган И.И., Кирпатовский И.Д. ТАиОХ в 2 т., 2013", value: kagan }
+          - { label: "Кованов В.В. Оперативная хирургия и топографическая анатомия, 2001", value: kovanov }
+          - { label: "Тургунов Е.М., Нурбеков А.А. Хирургические инструменты, 2008", value: turgunov }
+      - { name: pages, label: Страницы, widget: string, required: false, hint: "Например 542–545 или «т. 2, 162»" }
+  image: &image
+    name: image
+    label: Фото / картинка (необязательно)
+    widget: image
+    required: false
+    hint: Если не загружать, показывается встроенная схема. Используйте только изображения, на которые есть права.
+  credit: &credit
+    name: imageCredit
+    label: Автор и лицензия фото
+    widget: object
+    required: false
+    collapsed: true
+    hint: Обязательно для фото из интернета (например, Wikimedia Commons) — на сайте под фото выводится подпись.
+    fields:
+      - { name: author, label: Автор, widget: string, required: false }
+      - { name: license, label: Лицензия, widget: string, required: false, hint: "Например CC BY-SA 4.0 или Public domain" }
+      - { name: source, label: Ссылка на источник, widget: string, required: false }
+  illustration: &illustration
+    name: illustration
+    label: Встроенная схема
+    widget: select
+    required: false
+    options: [scalpel, forceps, scissors, clamp, needleholder, needle, needle-straight, suture, retractor, hook, dilator, tube, towel, suction, cautery, trocar, scope, lapinstrument, mesh, probe, spatula, saw, tourniquet, raspatory, organ, region, layers]
+
+# Связи между разделами — выбор из списка существующих статей
+x-relations:
+  instruments: &rel_instruments
+    name: instruments
+    label: Инструменты
+    widget: relation
+    collection: instruments
+    value_field: id
+    search_fields: [title]
+    display_fields: [title]
+    multiple: true
+    required: false
+  diseases: &rel_diseases
+    name: diseases
+    label: Связанные болезни
+    widget: relation
+    collection: diseases
+    value_field: id
+    search_fields: [title]
+    display_fields: [title]
+    multiple: true
+    required: false
+  anatomy: &rel_anatomy
+    name: anatomy
+    label: Связанная анатомия
+    widget: relation
+    collection: anatomy
+    value_field: id
+    search_fields: [title]
+    display_fields: [title]
+    multiple: true
+    required: false
+  drugs: &rel_drugs
+    name: drugs
+    label: Связанные препараты
+    widget: relation
+    collection: drugs
+    value_field: id
+    search_fields: [title]
+    display_fields: [title]
+    multiple: true
+    required: false
+
+collections:
+  - name: operations
+    label: Операции
+    label_singular: Операция
+    folder: src/content/operations
+    extension: json
+    format: json
+    create: true
+    delete: true
+    identifier_field: id
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - *id
+      - *title
+      - *aliases
+      - *tags
+      - *summary
+      - *review
+      - *sources
+      - name: difficulty
+        label: Сложность
+        widget: select
+        required: false
+        options: [Базовая, Средняя, Сложная]
+      - { name: duration, label: Длительность, widget: string, required: false }
+      - { name: anesthesia, label: Обезболивание, widget: string, required: false }
+      - { name: position, label: Положение пациента, widget: string, required: false }
+      - { name: indications, label: Показания, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: contraindications, label: Противопоказания, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - *rel_instruments
+      - *rel_diseases
+      - *rel_anatomy
+      - *rel_drugs
+      - name: steps
+        label: Ход операции (шаги)
+        label_singular: шаг
+        widget: list
+        summary: "{{fields.title}}"
+        fields:
+          - { name: title, label: Название шага, widget: string }
+          - { name: text, label: Описание, widget: text }
+          - { name: tip, label: Совет / важно (необязательно), widget: text, required: false }
+          - { name: instruments, label: Инструменты шага, widget: relation, collection: instruments, value_field: id, search_fields: [title], display_fields: [title], multiple: true, required: false }
+          - { name: image, label: Картинка шага (необязательно), widget: image, required: false }
+          - { name: caption, label: Подпись к картинке, widget: string, required: false }
+      - { name: complications, label: Осложнения, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: postop, label: Послеоперационный период, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+
+  - name: instruments
+    label: Инструменты
+    label_singular: Инструмент
+    folder: src/content/instruments
+    extension: json
+    format: json
+    create: true
+    delete: true
+    identifier_field: id
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title, category]
+    fields:
+      - *id
+      - *title
+      - *aliases
+      - name: category
+        label: Категория
+        widget: select
+        options: [Режущие, Захватывающие, Кровоостанавливающие, Расширяющие, Защитные, Для наложения швов, Для работы с костью, Лапароскопические, Энергетические, Специальные, Вспомогательные, Импланты]
+      - *tags
+      - *summary
+      - *review
+      - *sources
+      - *image
+      - *credit
+      - *illustration
+      - { name: description, label: Описание, widget: text }
+      - { name: usage, label: Применение, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: howToHold, label: Как держать, widget: text, required: false }
+      - { name: sterilization, label: Стерилизация, widget: string, required: false }
+
+  - name: diseases
+    label: Болезни
+    label_singular: Болезнь
+    folder: src/content/diseases
+    extension: json
+    format: json
+    create: true
+    delete: true
+    identifier_field: id
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - *id
+      - *title
+      - *aliases
+      - { name: icd, label: Код МКБ-10, widget: string, required: false }
+      - *tags
+      - *summary
+      - *review
+      - *sources
+      - { name: description, label: Описание, widget: text }
+      - { name: symptoms, label: Клиническая картина, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: diagnostics, label: Диагностика, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: treatment, label: Лечение, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - *rel_anatomy
+      - *rel_drugs
+
+  - name: anatomy
+    label: Анатомия
+    label_singular: Тема по анатомии
+    folder: src/content/anatomy
+    extension: json
+    format: json
+    create: true
+    delete: true
+    identifier_field: id
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - *id
+      - *title
+      - *aliases
+      - { name: system, label: Система органов, widget: string, required: false }
+      - *tags
+      - *summary
+      - *review
+      - *sources
+      - *image
+      - *credit
+      - *illustration
+      - { name: description, label: Описание, widget: text }
+      - { name: keyFacts, label: Важно для хирурга, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: bloodSupply, label: Кровоснабжение, widget: text, required: false }
+      - { name: innervation, label: Иннервация, widget: text, required: false }
+
+  - name: drugs
+    label: Препараты
+    label_singular: Препарат
+    folder: src/content/drugs
+    extension: json
+    format: json
+    create: true
+    delete: true
+    identifier_field: id
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - *id
+      - *title
+      - *aliases
+      - { name: group, label: Фармакологическая группа, widget: string, required: false }
+      - *tags
+      - *summary
+      - *review
+      - *sources
+      - { name: mechanism, label: Механизм действия, widget: text, required: false }
+      - { name: indications, label: Показания, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: dosage, label: Дозировка, widget: text, required: false }
+      - { name: contraindications, label: Противопоказания, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
+      - { name: sideEffects, label: Побочные эффекты, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }

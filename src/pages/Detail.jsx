@@ -39,11 +39,12 @@ export default function Detail() {
         {(item.illustration || item.image) && (
           <div className="detail-media">
             <Illustration kind={item.illustration} image={item.image} title={item.title} size="lg" />
+            {item.image && item.imageCredit && <ImageCredit credit={item.imageCredit} />}
           </div>
         )}
       </header>
 
-      {item.status === 'review' && (
+      {item.review && (
         <div className="review-banner" role="note">
           <strong>⚠ Статья на проверке</strong>
           <span>
@@ -90,6 +91,25 @@ export default function Detail() {
         </section>
       )}
     </article>
+  )
+}
+
+// Подпись к фото: автор, лицензия и ссылка на источник (требование лицензий CC)
+function ImageCredit({ credit }) {
+  const { author, license, source } = credit
+  return (
+    <p className="image-credit">
+      Фото: {author || 'неизвестный автор'}
+      {license && <>, {license}</>}
+      {source && (
+        <>
+          {' · '}
+          <a href={source} target="_blank" rel="noopener noreferrer">
+            источник
+          </a>
+        </>
+      )}
+    </p>
   )
 }
 
@@ -217,7 +237,7 @@ function Step({ n, step }) {
       </div>
       {step.image && (
         <figure className="step-figure">
-          <img src={step.image} alt={step.title} loading="lazy" />
+          <img src={step.image.replace(/^\//, '')} alt={step.title} loading="lazy" />
           {step.caption && <figcaption>{step.caption}</figcaption>}
         </figure>
       )}

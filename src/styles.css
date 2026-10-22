@@ -207,3 +207,10 @@ h1, h2, h3 { color: var(--ink); }
 .review-banner strong { font-size: 1.05rem; }
 .sources ol { margin: 0; padding-left: 22px; }
 .sources li { margin: 6px 0; }
+
+/* Фото и подпись с автором/лицензией */
+.detail-media { flex-direction: column; gap: 6px; background: #fff; border: 1px solid var(--line); }
+.detail-media img.illu { border-radius: 8px; }
+.card-media img.illu { border-radius: 6px; }
+.image-credit { margin: 0; font-size: 0.75rem; color: var(--muted); text-align: center; }
+.image-credit a { color: var(--muted); }
