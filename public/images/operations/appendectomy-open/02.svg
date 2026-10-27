@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Рассечены кожа и подкожная клетчатка">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><rect x="40" y="110" width="340" height="16" rx="0" fill="#f6d5c3" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="126" width="340" height="34" rx="0" fill="url(#fatp)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="160" width="340" height="9" rx="0" fill="url(#apo)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="169" width="340" height="24" rx="0" fill="url(#fib2)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="193" width="340" height="20" rx="0" fill="url(#fibh)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="213" width="340" height="5" rx="0" fill="#eef2f7" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="218" width="340" height="5" rx="0" fill="#bfe3cf" stroke="#ffffff" stroke-width="0.6"/><path d="M135.0 110 L165.0 160 L235.0 160 L265.0 110 Z" fill="#f2faf5" stroke="#d62828" stroke-width="1.6" /><polyline class="lead" points="374,118.0 394,118.0" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="122.0" text-anchor="start"><tspan x="398" dy="0">кожа</tspan></text><polyline class="lead" points="374,143.0 394,143.0" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="147.0" text-anchor="start"><tspan x="398" dy="0">подкожная клетчатка</tspan></text><polyline class="lead" points="374,164.5 394,164.5" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="168.5" text-anchor="start"><tspan x="398" dy="0">апоневроз наружной косой мышцы</tspan></text><polyline class="lead" points="374,181.0 394,181.0" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="185.0" text-anchor="start"><tspan x="398" dy="0">внутренняя косая мышца</tspan></text><polyline class="lead" points="374,203.0 394,203.0" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="207.0" text-anchor="start"><tspan x="398" dy="0">поперечная мышца</tspan></text><polyline class="lead" points="374,215.5 394,218.0" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="222.0" text-anchor="start"><tspan x="398" dy="0">поперечная фасция</tspan></text><polyline class="lead" points="374,220.5 394,233.0" marker-start="url(#dot)"/><text class="lbl sm" x="398" y="237.0" text-anchor="start"><tspan x="398" dy="0">брюшина</tspan></text><g transform="translate(200 150) rotate(75) scale(0.7)"><rect x="-150" y="-6" width="110" height="12" rx="4" fill="url(#steel)" stroke="#5f6b78" stroke-width="1.3"/><path d="M-40 -6 L-8 -9 Q4 -6 0 2 L-40 6 Z" fill="#f8fafc" stroke="#5f6b78" stroke-width="1.3"/></g><circle cx="150" cy="128" r="5" fill="#d62828"/><circle cx="250" cy="128" r="5" fill="#d62828"/><g transform="translate(150 128) rotate(235) scale(0.45)"><circle cx="-150" cy="-14" r="10" fill="none" stroke="#5f6b78" stroke-width="3"/><circle cx="-150" cy="14" r="10" fill="none" stroke="#5f6b78" stroke-width="3"/><path d="M-142 -10 L-60 2 L-25 -2 L0 -1" fill="none" stroke="#5f6b78" stroke-width="3.5"/><path d="M-142 10 L-60 -2 L-25 2 L0 1" fill="none" stroke="#5f6b78" stroke-width="3.5"/><circle cx="-60" cy="0" r="3" fill="#1f2d26"/><path d="M-135 -6 l8 6 l-8 6" stroke="#5f6b78" fill="none" stroke-width="1.5"/></g><g transform="translate(250 128) rotate(-55) scale(0.45)"><circle cx="-150" cy="-14" r="10" fill="none" stroke="#5f6b78" stroke-width="3"/><circle cx="-150" cy="14" r="10" fill="none" stroke="#5f6b78" stroke-width="3"/><path d="M-142 -10 L-60 2 L-25 -2 L0 -1" fill="none" stroke="#5f6b78" stroke-width="3.5"/><path d="M-142 10 L-60 -2 L-25 2 L0 1" fill="none" stroke="#5f6b78" stroke-width="3.5"/><circle cx="-60" cy="0" r="3" fill="#1f2d26"/><path d="M-135 -6 l8 6 l-8 6" stroke="#5f6b78" fill="none" stroke-width="1.5"/></g><polyline class="lead" points="150,128 60,300" marker-start="url(#dot)"/><text class="lbl" x="64" y="304" text-anchor="start"><tspan x="64" dy="0">ветви поверхностной</tspan><tspan x="64" dy="14">надчревной артерии —</tspan><tspan x="64" dy="14">зажать и перевязать</tspan></text><path d="M40 330 Q200 370 380 330" fill="none" stroke="#c97d72" stroke-width="24" stroke-linecap="round" opacity="0.5"/><text class="lbl sm" x="150" y="390" text-anchor="start" style="fill:#5b7266"><tspan x="150" dy="0">брюшная полость</tspan></text><text class="ttl" x="18" y="28">Рассечены кожа и подкожная клетчатка</text></svg>

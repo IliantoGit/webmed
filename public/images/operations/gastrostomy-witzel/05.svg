@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Введение трубки в желудок">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M40 110 Q320 70 600 110 L600 330 Q320 380 40 330 Z" fill="#f2aaa2" stroke="#b8655c" stroke-width="2" /><path d="M40 110 Q320 70 600 110" fill="none" stroke="#b8655c" stroke-width="5" /><path d="M40 330 Q320 380 600 330" fill="none" stroke="#b8655c" stroke-width="5" /><path d="M80 103.6 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M150 106.78888888888889 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M220 108.88888888888889 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M290 109.9 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M360 109.82222222222222 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M430 108.65555555555555 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M500 106.4 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><path d="M570 103.05555555555556 q-4 6 0 12" fill="none" stroke="#d62828" stroke-width="1.4" /><text class="lbl sm" x="50" y="100" text-anchor="start"><tspan x="50" dy="0">малая кривизна</tspan></text><text class="lbl sm" x="50" y="368" text-anchor="start"><tspan x="50" dy="0">большая кривизна</tspan></text><text class="lbl sm" x="600" y="66" text-anchor="end" style="fill:#5b7266"><tspan x="600" dy="0">к дну →</tspan></text><text class="lbl sm" x="40" y="66" text-anchor="start" style="fill:#5b7266"><tspan x="40" dy="0">← к привратнику</tspan></text><path d="M70 220 L455 220" fill="none" stroke="#b7791f" stroke-width="18" stroke-linecap="round"/><path d="M70 220 L455 220" fill="none" stroke="#f0b65a" stroke-width="14" stroke-linecap="round"/><path d="M100 214 L120 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M148 214 L168 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M196 214 L216 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M244 214 L264 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M292 214 L312 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M340 214 L360 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M388 214 L408 214" fill="none" stroke="#b8655c" stroke-width="2" /><path d="M436 214 L456 214" fill="none" stroke="#b8655c" stroke-width="2" /><ellipse cx="500" cy="220" rx="34" ry="26" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="7 5"/><path d="M500 205 L500 235" fill="none" stroke="#d62828" stroke-width="3" /><path d="M455 220 Q485 220 500 222" fill="none" stroke="#f0b65a" stroke-width="12" stroke-linecap="round" stroke-opacity="0.6"/><polyline class="lead" points="520,200 360,60" marker-start="url(#dot)"/><text class="lbl" x="364" y="64" text-anchor="start"><tspan x="364" dy="0">кисетный шов; внутри него</tspan><tspan x="364" dy="14">вскрыта стенка желудка</tspan></text><polyline class="lead" points="490,222 330,300" marker-start="url(#dot)"/><text class="lbl sm" x="334" y="304" text-anchor="start"><tspan x="334" dy="0">конец трубки введён в</tspan><tspan x="334" dy="14">просвет, кисет затянут +</tspan><tspan x="334" dy="14">2–3 серозно-мышечных шва</tspan></text><text class="ttl" x="18" y="28">Введение трубки в желудок</text></svg>

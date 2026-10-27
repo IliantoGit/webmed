@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Завершение и исследование жидкости">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><rect x="80" y="120" width="140" height="220" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/><rect x="80" y="120" width="140" height="30" rx="10" fill="#fbbf24"/><text class="lbl sm" x="150" y="140" text-anchor="middle"><tspan x="150" dy="0">выпот</tspan></text><text class="lbl sm" x="250" y="150" text-anchor="start"><tspan x="250" dy="0">• общий объём</tspan><tspan x="250" dy="15">• внешний вид (серозный,</tspan><tspan x="250" dy="15">  гнойный, геморрагический)</tspan><tspan x="250" dy="15">• белок, сахар</tspan><tspan x="250" dy="15">• цитология осадка</tspan><tspan x="250" dy="15">• посев</tspan></text><rect x="430" y="110" width="160" height="200" rx="8" fill="#1f2937"/><path d="M450 140 Q470 120 500 130 L500 290 Q470 300 450 285 Z" fill="#4b5563" /><path d="M520 130 Q550 120 570 140 L570 285 Q550 300 520 290 Z" fill="#4b5563" /><text class="lbl sm" x="510" y="335" text-anchor="middle"><tspan x="510" dy="0">контрольная</tspan><tspan x="510" dy="15">рентгенография</tspan></text><text class="ttl" x="18" y="28">Завершение и исследование жидкости</text></svg>

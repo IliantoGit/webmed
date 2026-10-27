@@ -99,7 +99,7 @@ function ImageCredit({ credit }) {
   const { author, license, source } = credit
   return (
     <p className="image-credit">
-      Фото: {author || 'неизвестный автор'}
+      {credit.kind === 'scheme' ? 'Схема' : 'Фото'}: {author || 'неизвестный автор'}
       {license && <>, {license}</>}
       {source && (
         <>
@@ -239,6 +239,7 @@ function Step({ n, step }) {
         <figure className="step-figure">
           <img src={step.image.replace(/^\//, '')} alt={step.title} loading="lazy" />
           {step.caption && <figcaption>{step.caption}</figcaption>}
+          {step.imageCredit && <ImageCredit credit={step.imageCredit} />}
         </figure>
       )}
     </div>

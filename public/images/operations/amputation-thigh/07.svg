@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Перепиливание кости">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><rect x="40" y="40" width="220" height="18" rx="0" fill="#f6d5c3" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="58" width="214" height="26" rx="0" fill="url(#fatp)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="84" width="230" height="40" rx="0" fill="url(#fib)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="124" width="250" height="48" rx="0" fill="url(#fibh)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="248" width="250" height="48" rx="0" fill="url(#fibh)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="296" width="230" height="40" rx="0" fill="url(#fib)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="336" width="214" height="26" rx="0" fill="url(#fatp)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="362" width="220" height="18" rx="0" fill="#f6d5c3" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="182" width="560" height="56" rx="0" fill="#f5efe0" stroke="#b9a77f" stroke-width="2"/><rect x="40" y="198" width="560" height="24" rx="0" fill="#e9c8a0"/><path d="M40 262 L286 262" fill="none" stroke="#d62828" stroke-width="5" /><path d="M40 274 L286 274" fill="none" stroke="#3a6ea5" stroke-width="6" /><path d="M40 150 L286 150" fill="none" stroke="#e9b824" stroke-width="5" /><text class="lbl sm" x="40" y="395" text-anchor="start" style="fill:#5b7266"><tspan x="40" dy="0">← к туловищу</tspan></text><text class="lbl sm" x="600" y="395" text-anchor="end" style="fill:#5b7266"><tspan x="600" dy="0">к колену →</tspan></text><rect x="260" y="120" width="30" height="180" rx="4" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/><g transform="translate(335 182) rotate(90) scale(0.9)"><rect x="-200" y="-20" width="40" height="40" rx="8" fill="#ece3d3" stroke="#5f6b78" stroke-width="1.3"/><rect x="-160" y="-16" width="160" height="22" fill="url(#steel)" stroke="#5f6b78" stroke-width="1.3"/><path d="M-160 6 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 " fill="none" stroke="#5f6b78" stroke-width="1.5"/></g><path d="M335 182 L335 238" fill="none" stroke="#d62828" stroke-width="3" stroke-dasharray="9 6" stroke-linecap="round"/><polyline class="lead" points="275,135 30,60" marker-start="url(#dot)"/><text class="lbl sm" x="34" y="64" text-anchor="start"><tspan x="34" dy="0">ретрактор защищает</tspan><tspan x="34" dy="14">мягкие ткани</tspan></text><polyline class="lead" points="335,200 400,260" marker-start="url(#dot)"/><text class="lbl" x="404" y="264" text-anchor="start"><tspan x="404" dy="0">кость перепиливают</tspan><tspan x="404" dy="14">листовой или дуговой пилой;</tspan><tspan x="404" dy="14">острые края — кусачками,</tspan><tspan x="404" dy="14">рашпилем</tspan></text><text class="ttl" x="18" y="28">Перепиливание кости</text></svg>

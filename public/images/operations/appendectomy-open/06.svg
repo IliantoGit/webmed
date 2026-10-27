@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Выведение слепой кишки">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><g><ellipse cx="300" cy="215" rx="226" ry="162" fill="#f6d5c3" stroke="#d9a58c" stroke-width="2"/><ellipse cx="300" cy="215" rx="210" ry="148" fill="url(#fatp)"/><ellipse cx="300" cy="215" rx="200" ry="140" fill="#bfe3cf" stroke="#e8c766" stroke-width="1.5"/></g><path d="M230 65 Q180 75 175 145 Q165 245 240 265 Q320 275 330 195 Q335 115 295 65 Z" fill="#ecc9a8" stroke="#b98a5c" stroke-width="2" /><path d="M258 67 Q260 175 270 263" fill="none" stroke="#b98a5c" stroke-width="5" stroke-opacity="0.45"/><path d="M195 95 Q210 195 268 265" fill="none" stroke="#b98a5c" stroke-width="1" stroke-dasharray="4 4"/><path d="M480 135 Q400 145 330 165" fill="none" stroke="#c97d72" stroke-width="34" stroke-linecap="round"/><path d="M480 135 Q400 145 330 165" fill="none" stroke="#f4bcb3" stroke-width="30" stroke-linecap="round"/><path d="M272 263 Q290 325 360 345 Q410 355 440 335" fill="none" stroke="#c97d72" stroke-width="20" stroke-linecap="round"/><path d="M272 263 Q290 325 360 345 Q410 355 440 335" fill="none" stroke="#f0a69b" stroke-width="16" stroke-linecap="round"/><g transform="rotate(-20 185.0 95.0)"><rect x="150" y="70" width="70" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/><path d="M150 86.66666666666667 H220 M150 103.33333333333334 H220 M173.33333333333334 70 V120 M196.66666666666666 70 V120" stroke="#e2e8f0" stroke-width="1"/></g><polyline class="lead" points="215,170 141.6,120" marker-start="url(#dot)"/><text class="lbl" x="137.6" y="124" text-anchor="end"><tspan x="137.6" dy="0">купол слепой кишки</tspan></text><polyline class="lead" points="259,150 134.4,250" marker-start="url(#dot)"/><text class="lbl" x="130.4" y="254" text-anchor="end"><tspan x="130.4" dy="0">свободная лента —</tspan><tspan x="130.4" dy="14">ведёт к основанию</tspan><tspan x="130.4" dy="14">отростка</tspan></text><polyline class="lead" points="400,345 470,360" marker-start="url(#dot)"/><text class="lbl" x="474" y="364" text-anchor="start"><tspan x="474" dy="0">червеобразный</tspan><tspan x="474" dy="14">отросток</tspan></text><polyline class="lead" points="430,135 470,80" marker-start="url(#dot)"/><text class="lbl" x="474" y="84" text-anchor="start"><tspan x="474" dy="0">подвздошная кишка</tspan></text><text class="lbl sm" x="30" y="385" text-anchor="start"><tspan x="30" dy="0">Ориентиры: серо-аспидный цвет, ленты, нет жировых подвесков</tspan></text><text class="ttl" x="18" y="28">Выведение слепой кишки</text></svg>

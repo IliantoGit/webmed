@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Погружение культи">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M40 150 L250 150 Q320 290 390 150 L600 150 L600 200 L410 200 Q320 340 230 200 L40 200 Z" fill="#ecc9a8" stroke="#b98a5c" stroke-width="2" /><path d="M40 200 L230 200 Q320 340 410 200 L600 200 L600 214 L414 214 Q320 360 226 214 L40 214 Z" fill="#f6dccb" /><path d="M300 230 Q320 330 340 230 Z" fill="#f0a69b" stroke="#c97d72" stroke-width="1.5" /><line x1="310" y1="262" x2="330" y2="262" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/><circle cx="320.0" cy="262.0" r="4" fill="#2563eb"/><path d="M250 150 Q320 220 390 150" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="320" cy="186" r="5" fill="#2563eb"/><path d="M215 150 L425 118 L215 118 L425 150" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline class="lead" points="320,270 460,290" marker-start="url(#dot)"/><text class="lbl" x="464" y="294" text-anchor="start"><tspan x="464" dy="0">культя отростка</tspan><tspan x="464" dy="14">в просвете кишки</tspan></text><polyline class="lead" points="320,186 460,70" marker-start="url(#dot)"/><text class="lbl" x="464" y="74" text-anchor="start"><tspan x="464" dy="0">кисетный шов затянут</tspan><tspan x="464" dy="14">(два узла)</tspan></text><polyline class="lead" points="230,125 60,70" marker-start="url(#dot)"/><text class="lbl" x="64" y="74" text-anchor="start"><tspan x="64" dy="0">Z-образный шов поверх</tspan></text><polyline class="lead" points="100,207 60,250" marker-start="url(#dot)"/><text class="lbl sm" x="64" y="254" text-anchor="start"><tspan x="64" dy="0">слизистая</tspan></text><text class="lbl sm" x="60" y="340" text-anchor="start" style="fill:#5b7266"><tspan x="60" dy="0">просвет слепой кишки</tspan></text><text class="ttl" x="18" y="28">Погружение культи</text></svg>

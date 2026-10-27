@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Усечение нервов">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M40 42 L330 42 Q420 90 420 190" fill="none" stroke="#d9a58c" stroke-width="18" /><path d="M40 42 L330 42 Q420 90 420 190" fill="none" stroke="#f6d5c3" stroke-width="16" /><path d="M40 78 L320 78 Q390 110 395 180 L330 180 L330 82 Z" fill="url(#fib)" /><path d="M40 120 L330 120 L330 180 L40 180 Z" fill="url(#fibh)" /><path d="M40 378 L330 378 Q420 330 420 230" fill="none" stroke="#d9a58c" stroke-width="18" /><path d="M40 378 L330 378 Q420 330 420 230" fill="none" stroke="#f6d5c3" stroke-width="16" /><path d="M40 342 L320 342 Q390 310 395 240 L330 240 L330 338 Z" fill="url(#fib)" /><path d="M40 300 L330 300 L330 240 L40 240 Z" fill="url(#fibh)" /><rect x="40" y="182" width="250" height="56" rx="0" fill="#f5efe0" stroke="#b9a77f" stroke-width="2"/><rect x="40" y="198" width="250" height="24" rx="0" fill="#e9c8a0"/><path d="M40 260 L330 260" fill="none" stroke="#d62828" stroke-width="5" /><path d="M40 272 L330 272" fill="none" stroke="#3a6ea5" stroke-width="6" /><path d="M40 155 L270 155" fill="none" stroke="#e9b824" stroke-width="6" /><line x1="300" y1="250" x2="304" y2="270" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/><circle cx="302.0" cy="260.0" r="4" fill="#2563eb"/><line x1="318" y1="250" x2="322" y2="270" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/><circle cx="320.0" cy="260.0" r="4" fill="#2563eb"/><line x1="310" y1="264" x2="314" y2="282" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/><circle cx="312.0" cy="273.0" r="4" fill="#2563eb"/><g transform="translate(272 155) rotate(70) scale(0.6)"><rect x="-150" y="-6" width="110" height="12" rx="4" fill="url(#steel)" stroke="#5f6b78" stroke-width="1.3"/><path d="M-40 -6 L-8 -9 Q4 -6 0 2 L-40 6 Z" fill="#f8fafc" stroke="#5f6b78" stroke-width="1.3"/></g><path d="M330 120 L280 120" fill="none" stroke="#16a34a" stroke-width="2.5" marker-end="url(#arr)"/><polyline class="lead" points="270,155 360,40" marker-start="url(#dot)"/><text class="lbl" x="364" y="44" text-anchor="start"><tspan x="364" dy="0">седалищный нерв: ткани</tspan><tspan x="364" dy="14">отодвинуть на 5–6 см,</tspan><tspan x="364" dy="14">пересечь лезвием бритвы</tspan><tspan x="364" dy="14">или острым скальпелем</tspan></text><text class="lbl sm" x="40" y="385" text-anchor="start" style="fill:#d62828"><tspan x="40" dy="0">НЕ вытягивать; НЕ резать ножницами — неврома должна уйти из рубца</tspan></text><text class="ttl" x="18" y="28">Усечение нервов</text></svg>

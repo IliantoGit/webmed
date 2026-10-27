@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Гастропексия">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><rect x="40" y="60" width="560" height="14" rx="0" fill="#f6d5c3" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="74" width="560" height="26" rx="0" fill="url(#fatp)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="100" width="560" height="30" rx="0" fill="url(#fibh)" stroke="#ffffff" stroke-width="0.6"/><rect x="40" y="130" width="560" height="6" rx="0" fill="#bfe3cf" stroke="#ffffff" stroke-width="0.6"/><path d="M60 200 Q320 140 580 200 L580 390 L60 390 Z" fill="#f2aaa2" stroke="#b8655c" stroke-width="2" /><path d="M320 165 L320 30" fill="none" stroke="#b7791f" stroke-width="16" /><path d="M320 165 L320 30" fill="none" stroke="#f0b65a" stroke-width="12" /><path d="M220 168 Q232 150 220 132" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="220" cy="132" r="3" fill="#2563eb"/><path d="M260 168 Q272 150 260 132" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="260" cy="132" r="3" fill="#2563eb"/><path d="M380 168 Q392 150 380 132" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="380" cy="132" r="3" fill="#2563eb"/><path d="M420 168 Q432 150 420 132" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="420" cy="132" r="3" fill="#2563eb"/><polyline class="lead" points="260,150 40,250" marker-start="url(#dot)"/><text class="lbl" x="44" y="254" text-anchor="start"><tspan x="44" dy="0">гастропексия: стенка желудка</tspan><tspan x="44" dy="14">подшита к париетальной</tspan><tspan x="44" dy="14">брюшине 4–5 швами</tspan></text><polyline class="lead" points="320,60 400,250" marker-start="url(#dot)"/><text class="lbl sm" x="404" y="254" text-anchor="start"><tspan x="404" dy="0">трубка фиксирована</tspan><tspan x="404" dy="14">нитями к коже</tspan></text><text class="lbl sm" x="400" y="330" text-anchor="start" style="fill:#16a34a"><tspan x="400" dy="0">изолирует канал от</tspan><tspan x="400" dy="15">свободной брюшной полости</tspan></text><text class="ttl" x="18" y="28">Гастропексия</text></svg>

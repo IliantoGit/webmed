@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Вариант: гастростомия по Топроверу">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M120 360 Q200 220 280 120 Q320 90 360 120 Q440 220 520 360 Z" fill="#f2aaa2" stroke="#b8655c" stroke-width="2" /><ellipse cx="320" cy="165" rx="60" ry="12" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-dasharray="7 5"/><ellipse cx="320" cy="215" rx="95" ry="12" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-dasharray="7 5"/><ellipse cx="320" cy="265" rx="130" ry="12" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-dasharray="7 5"/><path d="M320 140 L320 30" fill="none" stroke="#b7791f" stroke-width="14" /><path d="M320 140 L320 30" fill="none" stroke="#f0b65a" stroke-width="10" /><polyline class="lead" points="380,165 470,150" marker-start="url(#dot)"/><text class="lbl sm" x="474" y="154" text-anchor="start"><tspan x="474" dy="0">1-й кисет → к брюшине</tspan></text><polyline class="lead" points="410,215 470,210" marker-start="url(#dot)"/><text class="lbl sm" x="474" y="214" text-anchor="start"><tspan x="474" dy="0">2-й → к влагалищу</tspan><tspan x="474" dy="14">прямой мышцы</tspan></text><polyline class="lead" points="445,265 470,275" marker-start="url(#dot)"/><text class="lbl sm" x="474" y="279" text-anchor="start"><tspan x="474" dy="0">3-й → к коже</tspan><tspan x="474" dy="14">(губовидный свищ)</tspan></text><polyline class="lead" points="300,300 40,330" marker-start="url(#dot)"/><text class="lbl" x="44" y="334" text-anchor="start"><tspan x="44" dy="0">конус из передней</tspan><tspan x="44" dy="14">стенки желудка</tspan></text><text class="ttl" x="18" y="28">Вариант: гастростомия по Топроверу</text></svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Выбор точки пункции (вид сзади, правая сторона)">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M160 40 Q150 200 170 380 L470 380 Q490 200 480 40 Z" fill="#f6d5c3" stroke="#d9a58c" stroke-width="2" /><path d="M320 45 L320 375" fill="none" stroke="#d9a58c" stroke-width="2" stroke-dasharray="3 5"/><path d="M330 70 Q420 80 470 104" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 70 Q220 80 170 104" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 104 Q420 114 470 138" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 104 Q220 114 170 138" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 138 Q420 148 470 172" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 138 Q220 148 170 172" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 172 Q420 182 470 206" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 172 Q220 182 170 206" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 206 Q420 216 470 240" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 206 Q220 216 170 240" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 240 Q420 250 470 274" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 240 Q220 250 170 274" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 274 Q420 284 470 308" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 274 Q220 284 170 308" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 308 Q420 318 470 342" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 308 Q220 318 170 342" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M330 342 Q420 352 470 376" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M310 342 Q220 352 170 376" fill="none" stroke="#b9a77f" stroke-width="2" stroke-opacity="0.7"/><path d="M360 70 L430 80 L410 190 Z" fill="#e9d8c4" stroke="#b9a77f" stroke-width="1.5" fill-opacity="0.7"/><path d="M400 120 L400 380" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="6 4"/><path d="M455 120 L455 380" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="6 4"/><path d="M175 260 Q320 300 470 260" fill="none" /><path d="M330 255 Q420 262 475 300 L470 380 L330 380 Z" fill="#9ec9f0" fill-opacity="0.45"/><circle cx="430" cy="300" r="8" fill="#d62828"/><polyline class="lead" points="400,140 470,60" marker-start="url(#dot)"/><text class="lbl sm" x="474" y="64" text-anchor="start"><tspan x="474" dy="0">лопаточная линия</tspan></text><polyline class="lead" points="455,160 500,110" marker-start="url(#dot)"/><text class="lbl sm" x="504" y="114" text-anchor="start"><tspan x="504" dy="0">средняя подмышечная</tspan><tspan x="504" dy="14">линия (сбоку)</tspan></text><polyline class="lead" points="430,300 448.0,220" marker-start="url(#dot)"/><text class="lbl" x="452.0" y="224" text-anchor="start"><tspan x="452.0" dy="0">жидкость: 7–8 межреберье</tspan><tspan x="452.0" dy="14">между средней подмышечной</tspan><tspan x="452.0" dy="14">и лопаточной линиями</tspan></text><polyline class="lead" points="400,330 30,300" marker-start="url(#dot)"/><text class="lbl sm" x="34" y="304" text-anchor="start"><tspan x="34" dy="0">выпот (уровень</tspan><tspan x="34" dy="14">уточнить перкуссией</tspan><tspan x="34" dy="14">и рентгенологически)</tspan></text><text class="lbl sm" x="30" y="60" text-anchor="start" style="fill:#16a34a"><tspan x="30" dy="0">воздух: 2–3 межреберье</tspan><tspan x="30" dy="15">по среднеключичной линии (спереди)</tspan></text><text class="ttl" x="18" y="28">Выбор точки пункции (вид сзади, правая сторона)</text></svg>

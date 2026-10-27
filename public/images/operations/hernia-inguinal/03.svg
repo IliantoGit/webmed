@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Вскрытие пахового канала">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><ellipse cx="320" cy="215" rx="290" ry="160" fill="#f6d5c3" stroke="#d9a58c" stroke-width="2"/><ellipse cx="320" cy="215" rx="270" ry="140" fill="url(#fatp)"/><ellipse cx="320" cy="215" rx="250" ry="122" fill="url(#apo)"/><ellipse cx="510" cy="275" rx="24" ry="15" fill="#eef2f7" stroke="#9fb0c3" stroke-width="2"/><g transform="translate(520 272) rotate(190) scale(1.4)"><rect x="-150" y="-6" width="30" height="12" rx="3" fill="url(#steel)" stroke="#5f6b78" stroke-width="1.3"/><path d="M-120 -4 L-4 -4 Q4 0 -4 4 L-120 4 Z" fill="url(#steel)" stroke="#5f6b78" stroke-width="1.3"/><line x1="-115" y1="0" x2="-8" y2="0" stroke="#5f6b78" stroke-width="1"/></g><path d="M520 268 Q330 230 120 220" fill="none" stroke="#d62828" stroke-width="3" stroke-dasharray="9 6" stroke-linecap="round"/><polyline class="lead" points="510,275 470,370" marker-start="url(#dot)"/><text class="lbl" x="466" y="374" text-anchor="end"><tspan x="466" dy="0">поверхностное</tspan><tspan x="466" dy="14">паховое кольцо</tspan></text><polyline class="lead" points="300,238 300,60" marker-start="url(#dot)"/><text class="lbl" x="304" y="64" text-anchor="start"><tspan x="304" dy="0">рассечение апоневроза</tspan><tspan x="304" dy="14">по желобоватому зонду</tspan><tspan x="304" dy="14">вдоль волокон</tspan></text><text class="ttl" x="18" y="28">Вскрытие пахового канала</text></svg>

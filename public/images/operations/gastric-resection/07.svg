@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Бильрот I: анастомоз «конец в конец»">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M40 125.0 L300 125.0 L300 275.0 L40 275.0 Z" fill="#f2aaa2" stroke="#b8655c" stroke-width="2" /><path d="M340 155.0 L600 155.0 L600 245.0 L340 245.0 Z" fill="#f4bcb3" stroke="#c97d72" stroke-width="2" /><text class="lbl sm" x="60" y="115.0" text-anchor="start"><tspan x="60" dy="0">культя желудка</tspan></text><text class="lbl sm" x="590" y="145.0" text-anchor="end"><tspan x="590" dy="0">двенадцатиперстная кишка</tspan></text><path d="M296 160 Q320 164 344 160" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M296 174 Q320 178 344 174" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M296 188 Q320 192 344 188" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M296 202 Q320 206 344 202" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M296 216 Q320 220 344 216" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M296 230 Q320 234 344 230" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M296 244 Q320 248 344 244" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M300 155 L300 245" fill="none" stroke="#1f2d26" stroke-width="1" /><path d="M300 150 L312 150 L328 160 L312 170 L328 180 L312 190 L328 200 L312 210 L328 220 L312 230 L328 240" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><polyline class="lead" points="320,165 330,60" marker-start="url(#dot)"/><text class="lbl sm" x="334" y="64" text-anchor="start"><tspan x="334" dy="0">1) задний ряд серозно-мышечных</tspan><tspan x="334" dy="14">швов (шаг 0,5 см)</tspan></text><polyline class="lead" points="318,210 360,300" marker-start="url(#dot)"/><text class="lbl sm" x="364" y="304" text-anchor="start"><tspan x="364" dy="0">2) непрерывный шов через</tspan><tspan x="364" dy="14">все слои — задняя губа →</tspan><tspan x="364" dy="14">Шмиден на передней</tspan></text><text class="lbl sm" x="40" y="330" text-anchor="start" style="fill:#16a34a"><tspan x="40" dy="0">3) второй ряд серозно-мышечных на переднюю</tspan><tspan x="40" dy="15">полуокружность; кисет в углу — «анатомический замок»</tspan></text><text class="ttl" x="18" y="28">Бильрот I: анастомоз «конец в конец»</text></svg>

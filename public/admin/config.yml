@@ -180,6 +180,20 @@ collections:
           - { name: instruments, label: Инструменты шага, widget: relation, collection: instruments, value_field: id, search_fields: [title], display_fields: [title], multiple: true, required: false }
           - { name: image, label: Картинка шага (необязательно), widget: image, required: false }
           - { name: caption, label: Подпись к картинке, widget: string, required: false }
+          - name: imageCredit
+            label: Автор картинки шага
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - name: kind
+                label: Тип
+                widget: select
+                required: false
+                options: [{ label: "Схема", value: scheme }, { label: "Фото", value: photo }]
+              - { name: author, label: Автор, widget: string, required: false }
+              - { name: license, label: Лицензия, widget: string, required: false }
+              - { name: source, label: Ссылка на источник, widget: string, required: false }
       - { name: complications, label: Осложнения, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
       - { name: postop, label: Послеоперационный период, widget: list, required: false, field: { name: item, label: Пункт, widget: text } }
 

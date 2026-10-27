@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Бильрот II: культя желудка">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M380 60 Q440 40 500 60 Q560 90 560 200 Q560 300 470 330 L330 330 L330 120 Q340 75 380 60 Z" fill="#f2aaa2" stroke="#b8655c" stroke-width="2" /><g transform="translate(330 262) rotate(-90) scale(0.5)"><circle cx="-150" cy="-14" r="10" fill="none" stroke="#5f6b78" stroke-width="3"/><circle cx="-150" cy="14" r="10" fill="none" stroke="#5f6b78" stroke-width="3"/><path d="M-142 -10 L-60 2 L-25 -2 L0 -1" fill="none" stroke="#5f6b78" stroke-width="3.5"/><path d="M-142 10 L-60 -2 L-25 2 L0 1" fill="none" stroke="#5f6b78" stroke-width="3.5"/><circle cx="-60" cy="0" r="3" fill="#1f2d26"/><path d="M-135 -6 l8 6 l-8 6" stroke="#5f6b78" fill="none" stroke-width="1.5"/></g><path d="M330 120 L330 230" fill="none" stroke="#2563eb" stroke-width="2.5" /><path d="M322 130 L338 137" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 144 L338 151" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 158 L338 165" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 172 L338 179" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 186 L338 193" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 200 L338 207" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 214 L338 221" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M322 228 L338 235" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline class="lead" points="330,180 40,130" marker-start="url(#dot)"/><text class="lbl sm" x="44" y="134" text-anchor="start"><tspan x="44" dy="0">гемостатический шов через обе</tspan><tspan x="44" dy="14">стенки → обратно; малая</tspan><tspan x="44" dy="14">кривизна — узловые швы</tspan></text><polyline class="lead" points="330,300 40,330" marker-start="url(#dot)"/><text class="lbl sm" x="44" y="334" text-anchor="start"><tspan x="44" dy="0">участок у большой кривизны</tspan><tspan x="44" dy="14">в мягком зажиме — для</tspan><tspan x="44" dy="14">анастомоза (ширина 5–6 см)</tspan></text><text class="ttl" x="18" y="28">Бильрот II: культя желудка</text></svg>

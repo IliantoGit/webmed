@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Ушивание апоневроза">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><g><ellipse cx="320" cy="215" rx="256" ry="127" fill="#f6d5c3" stroke="#d9a58c" stroke-width="2"/><ellipse cx="320" cy="215" rx="240" ry="113" fill="url(#fatp)"/><ellipse cx="320" cy="215" rx="230" ry="105" fill="url(#apo)" stroke="#e8c766" stroke-width="1.5"/></g><path d="M150 245 Q330 265 560 285" fill="none" stroke="#efc2b3" stroke-width="24" stroke-linecap="round" opacity="0.5"/><path d="M140 200 Q152 240 140 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="140" cy="200" r="3" fill="#2563eb"/><path d="M185 200 Q197 240 185 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="185" cy="200" r="3" fill="#2563eb"/><path d="M230 200 Q242 240 230 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="230" cy="200" r="3" fill="#2563eb"/><path d="M275 200 Q287 240 275 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="275" cy="200" r="3" fill="#2563eb"/><path d="M320 200 Q332 240 320 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="320" cy="200" r="3" fill="#2563eb"/><path d="M365 200 Q377 240 365 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="365" cy="200" r="3" fill="#2563eb"/><path d="M410 200 Q422 240 410 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="410" cy="200" r="3" fill="#2563eb"/><path d="M455 200 Q467 240 455 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="455" cy="200" r="3" fill="#2563eb"/><path d="M500 200 Q512 240 500 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="500" cy="200" r="3" fill="#2563eb"/><path d="M545 200 Q557 240 545 280" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="545" cy="200" r="3" fill="#2563eb"/><polyline class="lead" points="330,260 440,360" marker-start="url(#dot)"/><text class="lbl sm" x="444" y="364" text-anchor="start"><tspan x="444" dy="0">канатик под</tspan><tspan x="444" dy="14">сшитым апоневрозом</tspan></text><polyline class="lead" points="320,200 300,55" marker-start="url(#dot)"/><text class="lbl" x="304" y="59" text-anchor="start"><tspan x="304" dy="0">апоневроз наружной косой мышцы</tspan><tspan x="304" dy="14">сшит над канатиком</tspan></text><text class="lbl sm" x="40" y="380" text-anchor="start"><tspan x="40" dy="0">не сузить поверхностное кольцо; далее — клетчатка и кожа</tspan></text><text class="ttl" x="18" y="28">Ушивание апоневроза</text></svg>

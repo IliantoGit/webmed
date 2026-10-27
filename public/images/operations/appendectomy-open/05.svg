@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Вскрытие брюшины">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><rect x="60" y="100" width="360" height="24" rx="0" fill="url(#fib2)" stroke="#ffffff" stroke-width="0.6"/><rect x="60" y="124" width="360" height="20" rx="0" fill="url(#fibh)" stroke="#ffffff" stroke-width="0.6"/><rect x="60" y="144" width="360" height="5" rx="0" fill="#eef2f7" stroke="#ffffff" stroke-width="0.6"/><rect x="60" y="149" width="360" height="5" rx="0" fill="#bfe3cf" stroke="#ffffff" stroke-width="0.6"/><path d="M165.0 100 L185.0 149 L295.0 149 L315.0 100 Z" fill="#f2faf5" stroke="#d62828" stroke-width="1.6" /><polyline class="lead" points="414,112.0 440,112.0" marker-start="url(#dot)"/><text class="lbl sm" x="444" y="116.0" text-anchor="start"><tspan x="444" dy="0">внутренняя косая мышца</tspan></text><polyline class="lead" points="414,134.0 440,134.0" marker-start="url(#dot)"/><text class="lbl sm" x="444" y="138.0" text-anchor="start"><tspan x="444" dy="0">поперечная мышца</tspan></text><polyline class="lead" points="414,146.5 440,149.0" marker-start="url(#dot)"/><text class="lbl sm" x="444" y="153.0" text-anchor="start"><tspan x="444" dy="0">поперечная фасция</tspan></text><polyline class="lead" points="414,151.5 440,164.0" marker-start="url(#dot)"/><text class="lbl sm" x="444" y="168.0" text-anchor="start"><tspan x="444" dy="0">брюшина</tspan></text><path d="M150 154 Q215 154 240 109 Q265 154 330 154" fill="#bfe3cf" stroke="#6aa889" stroke-width="2" /><g transform="translate(240 111) rotate(-90) scale(0.7)"><path d="M-140 -4 L0 -1 M-140 4 L0 1" stroke="#9aa7b4" stroke-width="5" stroke-linecap="round"/><path d="M-140 -4 L-20 -4.0 L0 -1 M-140 4 L-20 4.0 L0 1" fill="none" stroke="#5f6b78" stroke-width="1.3"/></g><path d="M70 290 Q240 350 410 290" fill="none" stroke="#c97d72" stroke-width="34" stroke-linecap="round"/><path d="M70 290 Q240 350 410 290" fill="none" stroke="#f4bcb3" stroke-width="30" stroke-linecap="round"/><path d="M232 131 L248 131" fill="none" stroke="#d62828" stroke-width="3" stroke-dasharray="9 6" stroke-linecap="round"/><polyline class="lead" points="285,139 460,240" marker-start="url(#dot)"/><text class="lbl" x="464" y="244" text-anchor="start"><tspan x="464" dy="0">брюшина поднята</tspan><tspan x="464" dy="14">конусом — кишка</tspan><tspan x="464" dy="14">отходит вниз</tspan></text><polyline class="lead" points="150,315 60,375" marker-start="url(#dot)"/><text class="lbl" x="64" y="379" text-anchor="start"><tspan x="64" dy="0">петля кишки</tspan></text><text class="lbl sm" x="20" y="375" text-anchor="start"><tspan x="20" dy="0"></tspan></text><text class="lbl sm" x="330" y="370" text-anchor="start"><tspan x="330" dy="0">Надсечь 0,5 см → края на зажимы</tspan><tspan x="330" dy="15">Микулича → рассечь на длину раны</tspan></text><text class="ttl" x="18" y="28">Вскрытие брюшины</text></svg>

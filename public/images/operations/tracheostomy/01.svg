@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Уровни вскрытия дыхательных путей">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M180 20 Q170 200 140 390 L500 390 Q470 200 460 20 Z" fill="#f6d5c3" stroke="#d9a58c" stroke-width="2" /><path d="M270 50 L370 50 L345 135 L320 145 L295 135 Z" fill="#e6eef5" stroke="#8aa0b6" stroke-width="2" /><rect x="285" y="160" width="70" height="16" rx="6" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="298" y="145" width="44" height="14" rx="0" fill="#dfe8f0" stroke="#8aa0b6" stroke-width="0.8"/><rect x="292" y="186" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="206" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="226" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="246" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="266" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="286" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="306" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="326" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="346" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><rect x="292" y="366" width="56" height="12" rx="5" fill="#e6eef5" stroke="#8aa0b6" stroke-width="1.2"/><path d="M250 170 Q230 230 260 280 Q285 290 295 250 L295 205 L345 205 L345 250 Q355 290 380 280 Q410 230 390 170 Q370 160 350 185 L350 200 L290 200 L290 185 Q270 160 250 170 Z" fill="#c9564d" stroke="#8f2f28" stroke-width="1.5" fill-opacity="0.85"/><rect x="290" y="200" width="60" height="40" rx="0" fill="#c9564d" stroke="#8f2f28" stroke-width="1.5"/><polyline class="lead" points="300,80 60,70" marker-start="url(#dot)"/><text class="lbl sm" x="64" y="74" text-anchor="start"><tspan x="64" dy="0">щитовидный хрящ</tspan></text><polyline class="lead" points="300,152 60,130" marker-start="url(#dot)"/><text class="lbl sm" x="64" y="134" text-anchor="start"><tspan x="64" dy="0">коническая связка</tspan><tspan x="64" dy="14">(коникотомия)</tspan></text><polyline class="lead" points="290,168 60,180" marker-start="url(#dot)"/><text class="lbl sm" x="64" y="184" text-anchor="start"><tspan x="64" dy="0">перстневидный хрящ</tspan></text><polyline class="lead" points="330,220 430,200" marker-start="url(#dot)"/><text class="lbl sm" x="434" y="204" text-anchor="start"><tspan x="434" dy="0">перешеек щитовидной</tspan><tspan x="434" dy="14">железы (2–4 кольца)</tspan></text><path d="M360 188 L420 188" fill="none" stroke="#16a34a" stroke-width="3" /><text class="lbl sm" x="425" y="160" text-anchor="start" style="fill:#16a34a"><tspan x="425" dy="0">верхняя: 2–3 кольца</tspan><tspan x="425" dy="15">выше перешейка</tspan></text><path d="M360 300 L420 300" fill="none" stroke="#16a34a" stroke-width="3" /><text class="lbl sm" x="425" y="290" text-anchor="start" style="fill:#16a34a"><tspan x="425" dy="0">нижняя: кольца</tspan><tspan x="425" dy="15">с 3-го по 6-е</tspan></text><text class="lbl sm" x="60" y="330" text-anchor="start" style="fill:#16a34a"><tspan x="60" dy="0">средняя — на уровне</tspan><tspan x="60" dy="15">перешейка (его пересекают)</tspan></text><text class="ttl" x="18" y="28">Уровни вскрытия дыхательных путей</text></svg>

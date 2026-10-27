@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="«Шпора» и фиксация анастомоза">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><path d="M40 60 L300 60 L300 260 L40 260 Z" fill="#f2aaa2" stroke="#b8655c" stroke-width="2" /><path d="M300 360 Q330 160 300 20" fill="none" stroke="#c97d72" stroke-width="64" /><path d="M300 360 Q330 160 300 20" fill="none" stroke="#f4bcb3" stroke-width="60" /><path d="M260 60 Q300 40 330 50" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="300" cy="48" r="3" fill="#2563eb"/><path d="M260 75 Q300 55 330 65" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="300" cy="63" r="3" fill="#2563eb"/><path d="M260 90 Q300 70 330 80" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="300" cy="78" r="3" fill="#2563eb"/><path d="M60 300 L280 300" fill="none" stroke="#d8b964" stroke-width="6" /><path d="M330 300 L600 300" fill="none" stroke="#d8b964" stroke-width="6" /><polyline class="lead" points="300,55 380,70" marker-start="url(#dot)"/><text class="lbl" x="384" y="74" text-anchor="start"><tspan x="384" dy="0">«шпора»: приводящую петлю</tspan><tspan x="384" dy="14">подшивают выше анастомоза</tspan><tspan x="384" dy="14">к малой кривизне (2–3 шва)</tspan></text><polyline class="lead" points="500,300 380,360" marker-start="url(#dot)"/><text class="lbl sm" x="384" y="364" text-anchor="start"><tspan x="384" dy="0">края окна брыжейки ободочной</tspan><tspan x="384" dy="14">кишки подшиты к культе</tspan></text><text class="ttl" x="18" y="28">«Шпора» и фиксация анастомоза</text></svg>

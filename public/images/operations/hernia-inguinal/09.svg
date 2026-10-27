@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Пластика по Бассини">
+<style>
+  .lbl { font: 600 13px system-ui, 'Segoe UI', Arial, sans-serif; fill: #1f2d26;
+          paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .sm  { font-size: 11.5px; font-weight: 500; }
+  .ttl { font: 700 15px system-ui, 'Segoe UI', Arial, sans-serif; fill: #16a34a; }
+  .lead { stroke: #1f2d26; stroke-width: 1.2; fill: none; }
+</style>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
+  </marker>
+  <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+    <circle cx="5" cy="5" r="4" fill="#1f2d26"/>
+  </marker>
+  <pattern id="fib" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fib2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="fibh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#e7a59b"/><line x1="0" y1="4" x2="8" y2="4" stroke="#c46f62" stroke-width="1"/>
+  </pattern>
+  <pattern id="apo" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <rect width="10" height="10" fill="#e6ecf3"/><line x1="0" y1="5" x2="10" y2="5" stroke="#9fb0c3" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="fatp" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#fde9b0"/><circle cx="7" cy="7" r="5" fill="none" stroke="#e8c766" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffffff" fill-opacity="0.55"/><path d="M0 0 L8 8 M8 0 L0 8" stroke="#7aa6c9" stroke-width="0.7"/>
+  </pattern>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#9aa7b4"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="400" rx="14" fill="#f2faf5"/><ellipse cx="320" cy="215" rx="290" ry="160" fill="#f6d5c3" stroke="#d9a58c" stroke-width="2"/><ellipse cx="320" cy="215" rx="270" ry="140" fill="url(#fatp)"/><ellipse cx="320" cy="215" rx="250" ry="122" fill="url(#apo)"/><path d="M80 210 Q320 150 560 220 L560 300 Q320 330 80 300 Z" fill="#eef2f7" /><path d="M70 150 Q320 110 570 160 L570 205 Q320 175 70 200 Z" fill="url(#fib)" stroke="#c46f62" stroke-width="1.2" /><path d="M70 305 Q320 330 575 300" fill="none" stroke="#c9d5e2" stroke-width="18" stroke-linecap="round"/><path d="M70 305 Q320 330 575 300" fill="none" stroke="#9fb0c3" stroke-width="1.5" /><path d="M215 330 Q222 260 235 215" fill="none" stroke="#d62828" stroke-width="3" /><path d="M224 330 Q231 260 244 215" fill="none" stroke="#3a6ea5" stroke-width="3" /><path d="M80 205 Q320 140 560 215" fill="none" stroke="#9fb0c3" stroke-width="3" /><path d="M80 300 Q320 335 560 300" fill="none" stroke="#9fb0c3" stroke-width="3" /><path d="M520 178.0 Q538 247.0 520 316.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="520" cy="178.0" r="3" fill="#2563eb"/><path d="M470 181.0 Q488 251.0 470 321.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="470" cy="181.0" r="3" fill="#2563eb"/><path d="M420 184.0 Q438 249.0 420 314.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="420" cy="184.0" r="3" fill="#2563eb"/><path d="M370 187.0 Q388 253.0 370 319.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="370" cy="187.0" r="3" fill="#2563eb"/><path d="M320 190.0 Q338 251.0 320 312.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="320" cy="190.0" r="3" fill="#2563eb"/><path d="M270 193.0 Q288 255.0 270 317.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="270" cy="193.0" r="3" fill="#2563eb"/><path d="M225 195.7 Q243 252.9 225 310.1" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="225" cy="195.7" r="3" fill="#2563eb"/><ellipse cx="195" cy="232" rx="16" ry="12" fill="#efc2b3" stroke="#d9a08f" stroke-width="2"/><polyline class="lead" points="470,200 450,60" marker-start="url(#dot)"/><text class="lbl" x="454" y="64" text-anchor="start"><tspan x="454" dy="0">6–8 швов: пластина →</tspan><tspan x="454" dy="14">паховая связка</tspan></text><polyline class="lead" points="520,315 470,360" marker-start="url(#dot)"/><text class="lbl sm" x="474" y="364" text-anchor="start"><tspan x="474" dy="0">первый шов — через</tspan><tspan x="474" dy="14">надкостницу лобкового</tspan><tspan x="474" dy="14">бугорка</tspan></text><polyline class="lead" points="195,232 40,90" marker-start="url(#dot)"/><text class="lbl sm" x="44" y="94" text-anchor="start"><tspan x="44" dy="0">новое глубокое кольцо —</tspan><tspan x="44" dy="14">пропускает кончик мизинца</tspan></text><text class="lbl sm" x="40" y="365" text-anchor="start" style="fill:#16a34a"><tspan x="40" dy="0">выколы в связке — то ближе,</tspan><tspan x="40" dy="15">то дальше от края</tspan></text><text class="ttl" x="18" y="28">Пластика по Бассини</text></svg>
